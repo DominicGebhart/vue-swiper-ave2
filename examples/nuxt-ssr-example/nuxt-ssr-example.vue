@@ -2,15 +2,11 @@
   <!-- You can find this swiper instance object in current component by the "mySwiper"  -->
   <div v-swiper:mySwiper="swiperOption">
     <div class="swiper-wrapper">
-      <div
-        class="swiper-slide"
-        v-for="(banner, index) in banners"
-        :key="index"
-      >
+      <div class="swiper-slide" v-for="banner in banners" :key="banner.id">
         <img :src="banner">
       </div>
     </div>
-    <div class="swiper-pagination swiper-pagination-bullets" />
+    <div class="swiper-pagination swiper-pagination-bullets"></div>
   </div>
 </template>
 
