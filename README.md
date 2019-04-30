@@ -9,7 +9,7 @@
 # Vue-Swiper-Ave2
 Swiper component for Vue.
 
-Quick fixes fork of "[vue-swiper-ave2](https://github.com/DarkRiDDeR/vue-swiper-ave2)" with updates
+Quick fixes fork of "[vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper)" with updates
 
 ![Ave, Awesome](https://i.imgflip.com/2zsrh5.jpg)
 
