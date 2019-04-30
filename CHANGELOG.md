@@ -1,5 +1,17 @@
+## CHANGELOG of Vue-Swiper-Ave2
 
-## CHANGELOG
+### v4.0.0
+
+- **Created fork**
+- Added type information https://github.com/surmon-china/vue-awesome-swiper/pull/458
+- fix: change some demo's wrong tag https://github.com/surmon-china/vue-awesome-swiper/pull/446
+- keep component alive during page transition https://github.com/surmon-china/vue-awesome-swiper/pull/388
+- fix #286 https://github.com/surmon-china/vue-awesome-swiper/pull/377
+- Fix: When destroying a component with an not initialized swiper https://github.com/surmon-china/vue-awesome-swiper/pull/341
+- Update nuxt-ssr-example.vue SSR example didnt worked for me (nuxt 1.4 / eslint 3.4.0) needed to add :key for banner https://github.com/surmon-china/vue-awesome-swiper/pull/331
+- Fix component ssr https://github.com/surmon-china/vue-awesome-swiper/pull/350
+
+## CHANGELOG of vue-awesome-swiper
 
 ### v3.1.3
 

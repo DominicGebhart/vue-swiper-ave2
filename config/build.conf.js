@@ -7,7 +7,7 @@ const resolve = dir => path.join(__dirname, '..', dir);
 
 module.exports = merge(baseConfig, {
   entry: {
-    'vue-awesome-swiper': './src/index.js'
+    'vue-swiper-ave2': './src/index.js'
   },
   externals: {
     'swiper/dist/js/swiper.js': {
@@ -22,7 +22,7 @@ module.exports = merge(baseConfig, {
     path: path.resolve(__dirname, '../dist'),
     publicPath: '/',
     filename: '[name].js',
-    library: 'VueAwesomeSwiper',
+    library: 'VueSwiperAve2',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },

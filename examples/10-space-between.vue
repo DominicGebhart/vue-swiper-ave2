@@ -10,7 +10,7 @@
       <md-button
         class="md-icon-button"
         target="_blank"
-        href="https://github.com/surmon-china/vue-awesome-swiper/blob/master/examples/10-space-between.vue"
+        href="https://github.com/DarkRiDDeR/vue-swiper-ave2/blob/master/examples/10-space-between.vue"
       >
         <md-icon>code</md-icon>
       </md-button>

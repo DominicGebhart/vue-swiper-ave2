@@ -1,34 +1,34 @@
 {
-  "name": "vue-awesome-swiper",
-  "description": "Swiper component for Vue",
-  "version": "3.1.3",
+  "name": "vue-swiper-ave2",
+  "description": "Swiper component for Vue. Quick fixes fork of \"vue-awesome-swiper\" with updates",
+  "version": "4.0.0",
   "license": "MIT",
   "private": false,
   "author": {
-    "name": "Surmon",
-    "email": "surmon@foxmail.com",
-    "url": "https://surmon.me"
+    "name": "DarkRiDDeR",
+    "email": "darkridder.pro@gmail.com",
+    "url": "https://github.com/DarkRiDDeR/vue-swiper-ave2"
   },
   "bugs": {
-    "url": "https://github.com/surmon-china/vue-awesome-swiper/issues"
+    "url": "https://github.com/DarkRiDDeR/vue-swiper-ave2/issues"
   },
-  "homepage": "https://github.com/surmon-china/vue-awesome-swiper#readme",
-  "main": "dist/vue-awesome-swiper.js",
-  "unpkg": "dist/vue-awesome-swiper.js",
-  "jsnext:main": "dist/vue-awesome-swiper.js",
+  "homepage": "https://github.com/DarkRiDDeR/vue-swiper-ave2#readme",
+  "main": "dist/vue-swiper-ave2.js",
+  "unpkg": "dist/vue-swiper-ave2.js",
+  "jsnext:main": "dist/vue-swiper-ave2js",
   "files": [
     "dist",
     "src",
     "types/*.d.ts"
   ],
   "jspm": {
-    "main": "dist/vue-awesome-swiper.js",
+    "main": "dist/vue-swiper-ave2.js",
     "registry": "npm",
     "format": "esm"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/surmon-china/vue-awesome-swiper.git"
+    "url": "https://github.com/DarkRiDDeR/vue-swiper-ave2.git"
   },
   "keywords": [
     "vue-awesome-swiper",
@@ -43,14 +43,14 @@
   "scripts": {
     "build:spa": "cross-env NODE_ENV=production webpack --mode production --config config/build.conf.js",
     "build:ssr": "babel src/ssr.js --out-file dist/ssr.js",
-    "build": "npm run build:spa && npm run build:ssr",
+    "build": "yarn run build:spa && yarn run build:ssr",
     "unit": "cross-env BABEL_ENV=test NODE_ENV=testing karma start test/unit/karma.conf.js --watch",
     "test": "cross-env BABEL_ENV=test NODE_ENV=testing karma start test/unit/karma.conf.js --single-run",
+    "test:types": "tsc -p ./types/tsconfig.json",
     "lint": "eslint --ext .js,.vue src test/unit/specs",
     "lint:fix": "eslint --fix .js,.vue src test/unit/specs",
-    "finish": "npm run lint && npm test && npm run build",
-    "publish": "git push && git push --tags && npm publish",
-    "test:types": "tsc -p ./types/tsconfig.json"
+    "finish": "yarn run lint && yarn test && yarn run build",
+    "publish": "git push && git push --tags && yarn publish"
   },
   "dependencies": {
     "object-assign": "^4.1.1",
@@ -143,7 +143,7 @@
     "webpack-merge": "^4.2.1"
   },
   "engines": {
-    "node": ">= 4.0.0",
+    "node": ">= 7.0.0",
     "npm": ">= 3.0.0"
   }
 }
