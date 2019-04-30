@@ -13,8 +13,8 @@
 
 <script>
   // require sources
-  import _Swiper from 'swiper/dist/js/swiper.js'
-  const Swiper = window.Swiper || _Swiper
+  import _Swiper from 'swiper/dist/js/swiper.js';
+  const Swiper = typeof window !== 'undefined' && window.Swiper || _Swiper;
 
   // pollfill
   if (typeof Object.assign != 'function') {
@@ -25,7 +25,7 @@
         }
         const to = Object(target)
         for (let index = 1; index < arguments.length; index++) {
-          const nextSource = arguments[index]
+          const nextSource = arguments[index];
           if (nextSource != null) {
             for (const nextKey in nextSource) {
               if (Object.prototype.hasOwnProperty.call(nextSource, nextKey)) {
