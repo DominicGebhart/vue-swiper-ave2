@@ -55,7 +55,7 @@
 
 
 <style lang="scss" scoped>
-  .my-swiper {
+  .swiper-container {
     height: 300px;
     width: 100%;
 
@@ -70,7 +70,6 @@
     }
 
     .swiper-pagination {
-
       > .swiper-pagination-bullet {
         background-color: red;
       }
