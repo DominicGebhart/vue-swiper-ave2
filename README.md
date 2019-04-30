@@ -1,5 +1,5 @@
 [![GitHub stars](https://img.shields.io/github/stars/DarkRiDDeR/vue-swiper-ave2.svg?style=flat-square)](https://github.com/DarkRiDDeR/vue-swiper-ave2/stargazers)
-[![Build Status](https://travis-ci.org/DarkRiDDeR/vue-swiper-ave2.svg?branch=master)](https://travis-ci.org/DarkRiDDeR/vue-swiper-ave2)
+[![Build Status](https://travis-ci.com/DarkRiDDeR/vue-swiper-ave2.svg?branch=master)](https://travis-ci.com/DarkRiDDeR/vue-swiper-ave2)
 [![GitHub issues](https://img.shields.io/github/issues/DarkRiDDeR/vue-swiper-ave2.svg?style=flat-square)](https://github.com/DarkRiDDeR/vue-swiper-ave2/issues)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/DarkRiDDeR/vue-swiper-ave2)
 
