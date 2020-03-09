@@ -4,7 +4,7 @@
 # Vue-Swiper-Ave5
 Swiper component for Vue. Swiper Version 5.3.6
 
-Updated fork of "[vue-swiper-ave5](https://github.com/DarkRiDDeR/vue-swiper-ave5)"
+Updated fork of "[vue-swiper-ave2](https://github.com/DarkRiDDeR/vue-swiper-ave2)"
 
 ![Ave, Awesome](https://i.imgflip.com/2zsrh5.jpg)
 
