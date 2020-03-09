@@ -5,7 +5,7 @@
  */
 
 // Require sources
-import _Swiper from 'swiper/dist/js/swiper.js';
+import _Swiper from 'swiper/js/swiper.js';
 import objectAssign from 'object-assign';
 
 const Swiper = (typeof window !== 'undefined' && window.Swiper) || _Swiper;

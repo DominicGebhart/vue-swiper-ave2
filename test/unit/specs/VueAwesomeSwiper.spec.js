@@ -1,6 +1,6 @@
 
 import Vue from 'vue/dist/vue.js';
-import Swiper from 'swiper/dist/js/swiper.js';
+import Swiper from 'swiper/js/swiper.js';
 import VueAwesomeSwiperSSR from '../../../src/ssr.js';
 import VueAwesomeSwiper, { swiper, swiperSlide, install } from '../../../src/index.js';
 
@@ -41,7 +41,7 @@ describe('vue-awesome-swiper', () => {
                   </swiper>`
       }).$mount();
       expect(vm.$el.innerText).to.deep.equal(' Slide 1 Slide 2 Slide 3 Slide 4 Slide 5 Slide 6 Slide 7 Slide 8 Slide 9 Slide 10    ');
-      expect(vm.$el.className).to.deep.equal('swiper-container swiper-container-horizontal');
+      expect(vm.$el.className).to.deep.equal('swiper-container swiper-container-initialized swiper-container-horizontal');
       expect(vm.$el.children[0].className).to.deep.equal('swiper-wrapper');
       expect(vm.$el.children[0].children.length).to.deep.equal(10);
     });

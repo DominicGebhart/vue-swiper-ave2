@@ -10,7 +10,7 @@
       <md-button
         class="md-icon-button"
         target="_blank"
-        href="https://github.com/DarkRiDDeR/vue-swiper-ave2/blob/master/examples/18-nested.vue"
+        href="https://github.com/DarkRiDDeR/vue-swiper-ave5/blob/master/examples/18-nested.vue"
       >
         <md-icon>code</md-icon>
       </md-button>

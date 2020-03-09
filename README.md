@@ -1,15 +1,10 @@
-[![GitHub stars](https://img.shields.io/github/stars/DarkRiDDeR/vue-swiper-ave2.svg?style=flat-square)](https://github.com/DarkRiDDeR/vue-swiper-ave2/stargazers)
-[![Build Status](https://travis-ci.com/DarkRiDDeR/vue-swiper-ave2.svg?branch=master)](https://travis-ci.com/DarkRiDDeR/vue-swiper-ave2)
-[![GitHub issues](https://img.shields.io/github/issues/DarkRiDDeR/vue-swiper-ave2.svg?style=flat-square)](https://github.com/DarkRiDDeR/vue-swiper-ave2/issues)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/DarkRiDDeR/vue-swiper-ave2)
-
-[![NPM](https://nodei.co/npm/vue-swiper-ave2.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-swiper-ave2/)
+[![NPM](https://nodei.co/npm/vue-swiper-ave5.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-swiper-ave5/)
 
 
-# Vue-Swiper-Ave2
-Swiper component for Vue.
+# Vue-Swiper-Ave5
+Swiper component for Vue. Swiper Version 5.3.6
 
-Quick fixes fork of "[vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper)" with updates
+Updated fork of "[vue-swiper-ave5](https://github.com/DarkRiDDeR/vue-swiper-ave5)"
 
 ![Ave, Awesome](https://i.imgflip.com/2zsrh5.jpg)
 

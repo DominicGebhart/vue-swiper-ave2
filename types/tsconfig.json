@@ -58,7 +58,7 @@
         // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
     },
     "files": [
-        "./vue-swiper-ave2.d.ts"
+        "./vue-swiper-ave5.d.ts"
     ],
     "compileOnSave": false
 }

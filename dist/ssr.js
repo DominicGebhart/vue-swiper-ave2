@@ -1,4 +1,4 @@
-import _Swiper from 'swiper/dist/js/swiper.js';
+import _Swiper from 'swiper/js/swiper.js';
 import objectAssign from 'object-assign';
 var Swiper = typeof window !== 'undefined' && window.Swiper || _Swiper;
 var DEFAULT_EVENTS = ['beforeDestroy', 'slideChange', 'slideChangeTransitionStart', 'slideChangeTransitionEnd', 'slideNextTransitionStart', 'slideNextTransitionEnd', 'slidePrevTransitionStart', 'slidePrevTransitionEnd', 'transitionStart', 'transitionEnd', 'touchStart', 'touchMove', 'touchMoveOpposite', 'sliderMove', 'touchEnd', 'click', 'tap', 'doubleTap', 'imagesReady', 'progress', 'reachBeginning', 'reachEnd', 'fromEdge', 'setTranslate', 'setTransition', 'resize'];

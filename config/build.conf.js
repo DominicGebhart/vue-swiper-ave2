@@ -7,13 +7,13 @@ const resolve = dir => path.join(__dirname, '..', dir);
 
 module.exports = merge(baseConfig, {
   entry: {
-    'vue-swiper-ave2': './src/index.js'
+    'vue-swiper-ave5': './src/index.js'
   },
   externals: {
-    'swiper/dist/js/swiper.js': {
+    'swiper/js/swiper.js': {
         root: 'Swiper',
-        commonjs: 'swiper/dist/js/swiper.js',
-        commonjs2: 'swiper/dist/js/swiper.js',
+        commonjs: 'swiper/js/swiper.js',
+        commonjs2: 'swiper/js/swiper.js',
         amd: 'swiper'
     },
     'object-assign': 'object-assign'
@@ -22,7 +22,7 @@ module.exports = merge(baseConfig, {
     path: path.resolve(__dirname, '../dist'),
     publicPath: '/',
     filename: '[name].js',
-    library: 'VueSwiperAve2',
+    library: 'VueSwiperave5',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
@@ -34,7 +34,7 @@ module.exports = merge(baseConfig, {
       resolve('node_modules')
     ],
     alias: {
-      'swiper$': 'swiper/dist/js/swiper.js'
+      'swiper$': 'swiper/js/swiper.js'
     }
   }
 });

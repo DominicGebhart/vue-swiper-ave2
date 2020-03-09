@@ -1,4 +1,8 @@
-## CHANGELOG of Vue-Swiper-Ave2
+## CHANGELOG of Vue-Swiper-ave5
+
+### v5.0.0
+- **Created fork**
+- Updated all dependencies
 
 ### v4.0.0
 

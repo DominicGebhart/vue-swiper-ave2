@@ -10,7 +10,7 @@
       <md-button
         class="md-icon-button"
         target="_blank"
-        href="https://github.com/DarkRiDDeR/vue-swiper-ave2/blob/master/examples/36-parallax.vue"
+        href="https://github.com/DarkRiDDeR/vue-swiper-ave5/blob/master/examples/36-parallax.vue"
       >
         <md-icon>code</md-icon>
       </md-button>

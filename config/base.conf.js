@@ -43,9 +43,6 @@ module.exports = {
         parallel: 4,
         uglifyOptions: {
           warnings: false,
-          compress: {
-            warnings: false
-          },
         },
       })
     ]

@@ -1,16 +1,17 @@
 {
-  "name": "vue-swiper-ave2",
+  "name": "vue-swiper-ave5",
   "description": "Swiper component for Vue. Quick fixes fork of \"vue-awesome-swiper\" with updates",
-  "main": "./dist/vue-swiper-ave2.js",
+  "main": "./dist/vue-swiper-ave5.js",
   "author": {
-    "name": "DarkRiDDeR",
-    "email": "darkridder.pro@gmail.com",
-    "url": "https://github.com/DarkRiDDeR/vue-swiper-ave2"
+    "name": "Dominic gebhart",
+    "email": "dominic.gebhart@russmedia.com",
+    "url": "https://github.com/DominicGebhart/vue-swiper-ave5"
   },
   "license": "MIT",
   "keywords": [
     "vue swiper ave",
-    "vue-swiper-ave2",
+    "vue-swiper-ave5",
+    "vue-swiper-ave5",
     "vue-awesome-swiper",
     "vue awesome swiper",
     "awesome-swiper",
@@ -20,7 +21,7 @@
     "carousel",
     "swiper"
   ],
-  "homepage": "https://github.com/DarkRiDDeR/vue-swiper-ave2",
+  "homepage": "https://github.com/DominicGebhart/vue-swiper-ave5",
   "moduleType": [],
   "ignore": [
     "**/.*",
